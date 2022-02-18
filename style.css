@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit; 
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+/* styling left background image */
+
+/* container one */
+.logo-background-image {
+    background-image: url('background\ image.jpg');
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.logo-text {
+    font-family: 'Spartan', Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 3.25rem;
+}
+
+.logo {
+    width: auto;
+    height: 100px;
+}
+
+.logo-place-holder {
+    background: rgba(29, 29, 29, 0.8);
+    height: 120px;
+    position: relative;
+    top: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* body formatting */
+.body-container {
+    display: flex;
+}
+
+/* container two */
+.right-container {
+    background-color: rgb(240, 237, 230);
+}
+
+.text-container {
+    padding: 150px 50px 100px 50px;
+}
+
+h2, p, label, :placeholder-shown, button {
+    font-family: 'Spartan', Arial, Helvetica;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.sign-up {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.disclaimer {
+    margin-top: 15px;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color:rgba(24, 24, 24, 0.8);
+}
+
+/* form container styling */
+.form-container {
+    height: 280px;
+    background-color: rgb(247, 247, 247);
+    padding: 20px 0 0 50px;
+    box-shadow: 2px 3px 5px #888888;
+}
+
+.content form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+:placeholder-shown {
+    padding-left: 10px;
+}
+
+.user-details .input-box input {
+    height: 30px;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.user-details {
+    margin-right: 200px; 
+}
+
+/* button styling */
+.button-section {
+    padding: 65px 0 0 0;
+}
+
+.login-prompt {
+    padding-top: 25px;
+}
+
+.button {
+    font-size: 1.1rem;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    color: rgb(247, 247, 247);
+    background-color: rgb(29, 29, 29, 0.8);
+    border-radius: 5rem;
+    border: none;
+    box-shadow: 5%;
+    cursor: pointer;
+    box-shadow: 1px 4px 5px #888888;
+}
+
